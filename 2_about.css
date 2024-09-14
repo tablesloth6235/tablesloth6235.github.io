@@ -1,0 +1,116 @@
+@keyframes fade-up {
+  0% {opacity: 0%; animation-timing-function: linear;}
+  50% {opacity: 50%; animation-timing-function: linear;}
+  100% {opacity: 100%; animation-timing-function: linear;}
+}
+
+@keyframes fade-up-delay {
+  0% {opacity: 0%; animation-timing-function: linear;}
+  50% {opacity: 0%; animation-timing-function: linear;}
+  75% {opacity: 50%; animation-timing-function: linear;}
+  100% {opacity: 100%; animation-timing-function: linear;}
+}
+
+@keyframes fade-up-extra-delay {
+  0% {opacity: 0%; animation-timing-function: linear;}
+  50% {opacity: 0%; animation-timing-function: linear;}
+  75% {opacity: 0%; animation-timing-function: linear;}
+  100% {opacity: 100%; animation-timing-function: linear;}
+}
+
+.table-container {
+  height: 1300px;
+}
+
+.container-bodtable-block {
+  height: 950px;
+}
+
+.volunteers {
+  text-align: center;
+  animation-name: fade-up-delay;
+  animation-duration: 2s;
+}
+
+.volunteers-table, .bod-table {
+  padding-left: 40px;
+  position: static;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.volunteer-name, .volunteer-subt {
+  line-height: 0.75;
+  text-decoration: none;
+}
+
+.volunteer-name {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.volunteer-subt {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.volunteers-image {
+  height: 180px;
+  width: 180px;
+  text-decoration: none;
+}
+
+.volunteers-column1 {
+  padding-right: 50px;
+  text-decoration: none;
+}
+
+.volunteers-column2 {
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+.bod {
+  text-align: center;
+  animation-name: fade-up-delay;
+  animation-duration: 2s;
+}
+
+.bio-image {
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+.container-contactinfo {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+
+
+.contactus {
+  animation-name: fade-up-delay;
+  animation-duration: 2s;
+}
+
+/* contact footer block start*/
+
+.container-contactfooter-block-main {
+  background-color: pink;
+}
+
+table {
+  margin-left: 40px;
+}
+
+
+td {
+  line-height: 1.5;
+  padding-right: 40px;
+}
