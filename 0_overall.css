@@ -1,0 +1,215 @@
+/*
+FORMAT
+
+h1 {
+  font-size:
+  font-family: 'Handjet', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Tektur', cursive;
+  font-family: 'Tilt Prism', cursive;
+  font-weight:
+  margin:
+  padding:
+  line-height: 1.5;
+  text-decoration:
+  color:
+  background-color:
+  background-image:
+  min-width:
+  max-width:
+  position:
+  text-align:
+  animation-name:
+  animation-duration:
+}
+*/
+
+body {
+  background: #000;
+  color: #fff;
+  padding: 0;
+  min-width: 400px;
+  max-width: 1400px;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Tektur', cursive;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #fff;
+  animation-name: fade-up;
+  animation-duration: 1s;
+  /*
+  animation-duration: 6s;
+  animation-name: color-change-h1;
+  animation-iteration-count: infinite;
+  */
+}
+
+h2 {
+  font-size: 60px;
+  font-family: 'Tektur', cursive;
+  font-weight: 200;
+  letter-spacing: 4px;
+  animation-name: fade-up-delay1;
+  animation-duration: 2s;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: 'Tektur', cursive;
+  font-weight: 200;
+  letter-spacing: 4px;
+  text-align: left;
+  animation-name: fade-up;
+  animation-duration: 1s;
+}
+
+h4
+
+h5 {
+  line-height: 1.75;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-align: center;
+  animation-name: fade-up-extra-delay;
+  animation-duration: 3s;
+}
+
+h6
+
+p {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  margin: 40px;
+}
+
+a {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  line-height: 1.5;
+}
+
+div {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 40px;
+}
+
+nav {
+  height: 120px;
+}
+
+.h1-block {
+  background-color: #0A00FF;
+  margin: 0;
+  height: 400px;
+}
+
+.nav-sect {
+  padding: 40px;
+}
+
+.nav-btn {
+  padding-top: 13px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 10px;
+  line-height: 2.5;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  transition: 0.75s;
+}
+
+.nav-btn:hover {
+  background-color: #0068FF;
+}
+
+.all-link {
+  padding: 0;
+  line-height: 1.75;
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+
+.all-link:hover {
+ color: #00D3FF;
+}
+
+.cntct-img {
+  padding-right: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes fade-up {
+  0% {opacity: 0%; animation-timing-function: linear;}
+  50% {opacity: 50%; animation-timing-function: linear;}
+  100% {opacity: 100%; animation-timing-function: linear;}
+}
+
+@keyframes fade-up-delay1 {
+  0% {opacity: 0%; animation-timing-function: linear;}
+  50% {opacity: 0%; animation-timing-function: linear;}
+  75% {opacity: 50%; animation-timing-function: linear;}
+  100% {opacity: 100%; animation-timing-function: linear;}
+}
+
+@keyframes fade-up-delay2 {
+  0% {opacity: 0%; animation-timing-function: linear;}
+  50% {opacity: 0%; animation-timing-function: linear;}
+  75% {opacity: 0%; animation-timing-function: linear;}
+  100% {opacity: 100%; animation-timing-function: linear;}
+}
+
+@keyframes color-change-h1 {
+  0% {color: #8500FF; animation-timing-function: linear;}
+  16% {color: #0300FF; animation-timing-function: linear;}
+  33% {color: #008DFF; animation-timing-function: linear;}
+  50% {color: #00F3FF; animation-timing-function: linear;}
+  66% {color: #008DFF; animation-timing-function: linear;}
+  82% {color: #0300FF; animation-timing-function: linear;}
+  100% {color: #8500FF; animation-timing-function: linear;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
